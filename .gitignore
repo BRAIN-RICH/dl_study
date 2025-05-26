@@ -1,0 +1,78 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# Python specific files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python
+env/
+venv/
+*.egg
+*.egg-info
+dist/
+build/
+*.so
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Node.js specific files
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+*.pth
+# Compiled output
+*.class
+*.jar
+*.war
+*.exe
+*.dll
+*.obj
+*.o
+*.out
+*.log
+*.err
+*.tmp
+*.temp
+
+# Data files / Logs
+data/
+logs/
+*.csv
+*.json
+*.sqlite
+*.db
+
+# Environment variables
+.env
+.env.local
+.flaskenv
+
+# Backup files
+*~
+.#*
+.#*#
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
