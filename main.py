@@ -6,7 +6,7 @@ import torch.optim as optim
 import torch.nn as nn
 
 from models.basic_cnn import BasicCNN,ImprovedCNN
-from models.resnet import get_res18
+from models.resnet import get_res18,get_res34
 from utils.data_loader import get_dataloader
 from test import evaluate
 from train import train
@@ -58,7 +58,7 @@ if __name__  == '__main__':
 
     # model = BasicCNN().to(device)
     # model = ImprovedCNN().to(device)
-    model = get_res18().to(device)
+    model = get_res34().to(device)
     if os.path.exists("best_res_model_1.pth"):
         model.load_state_dict(torch.load("best_res_model_1.pth"))
     criterion = nn.CrossEntropyLoss(label_smoothing=0.1)
